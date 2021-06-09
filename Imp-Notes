@@ -1,0 +1,42 @@
+
+https://www.kdnuggets.com/2020/06/free-data-analytics-courses.html
+
+Data Analysis
+
+1) Data Acquisition and Wrangling- either downloadable , or through apis. Make sure it is in the good format.Check for inconsistencies if any.
+
+2)  Make data understandable -- By creating data dictionaries
+
+3) Form some questions you want to answer through the data.
+
+4) Data Cleaning and Preprocessing .Check for datatypes .
+
+5) Analyze the data using tools .For example we will be analyzing using numpy and Pandas.
+
+
+For ex Subway Data Analysis-
+
+1. Downloaded data
+2. Data Dictionary
+3. Form Questions-- atleast 5
+
+a) from which remote unit has the most entries on the day (per day average) 
+b) from which remote unit has the most exit on the day (per day average)
+c) which stations/remote unit has trains to the turnstile on the non week day?
+d) which stations let the train travel on the rain day?
+e) weather condition of a particular station over a month ? (suppose april month conditions (mean of every thing like rain, clouds ,atmospheric pressure etc.))
+
+
+>>> one advantage of pandas dataframe over the numpy array is that in dataframe each column can be of differtent datatype while in numpy we need to have same datatypes across all the columns.Although we can use some other approaches to work that in numpy but directly not available. Thus there is an extra flexibility in the pandas.
+
+Pearson correlation coefficient
+it is the measure of the strength of the linear relationship between two variables.
+range is from -1 to +1
+-1 means not related ;+1 strongly related ,0 is variables are not strongly corelated
+positive relation means that if one variable increases ,then other tends to increase as well.
+formula of pearson r ==
+1) standardize each variable
+2) take average of the product of each pair of the standardized variable.
+
+https://towardsdatascience.com/python-statistics-for-beginners-pearson-correlation-coefficient-69c9b1ef17f7
+
